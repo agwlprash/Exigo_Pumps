@@ -31,5 +31,6 @@ The depencies can be installed using the following [link](https://kivy.org/doc/s
 
 # Installing on Windows using Anaconda
 
-conda install kivy -c conda-forge\\
+conda install kivy -c conda-forge
+
 pip install serial
