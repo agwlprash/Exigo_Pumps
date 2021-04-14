@@ -8,7 +8,6 @@ The depencies can be installed using the following [link](https://kivy.org/doc/s
 
 ```Python
 sudo apt-get update
-
 sudo apt-get upgrade
 ```
 sudo apt update
