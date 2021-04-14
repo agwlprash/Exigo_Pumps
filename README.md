@@ -7,6 +7,7 @@ This script allows the Cellix pump to be run by your computer without the Ipad t
 The depencies can be installed using the following [link](https://kivy.org/doc/stable/installation/installation-rpi.html)
 
 sudo apt-get update
+
 sudo apt-get upgrade
 
 sudo apt update
