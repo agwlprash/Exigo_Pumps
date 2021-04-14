@@ -29,9 +29,5 @@ sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev
 sudo pip install kivy
 sudo pip install kivy-garden
 ```
-
-
-
-
-# Fixing double click issues
+## Fixing double click issues
 There might be a problem with double key press in the API. For that, go to the explorer,and show hidden folders.   Then go to:  pi,  .config.ini and delete line 43,  starting with %(name)s
