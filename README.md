@@ -22,10 +22,10 @@ sudo pip install kivy-garden
 
 
 # Installing on Windows using Anaconda
-
+```Python
 conda install kivy -c conda-forge
-
 pip install serial
+```
 
 # Fixing double click issues
 There might be a problem with double key press in the API. For that, go to the explorer,and show hidden folders.   Then go to:  pi,  .config.ini and delete line 43,  starting with %(name)s
