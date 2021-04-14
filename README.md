@@ -25,3 +25,11 @@ sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev
 sudo pip install kivy
 
 sudo pip install kivy-garden
+
+The depencies can be installed using the following [link](https://kivy.org/doc/stable/installation/installation-rpi.html)
+
+
+# Installing on Windows using Anaconda
+
+conda install kivy -c conda-forge
+pip install serial
