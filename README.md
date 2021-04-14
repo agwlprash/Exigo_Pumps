@@ -10,7 +10,7 @@ sudo apt-get upgrade
 
 sudo apt update
 
-sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev \textbackslash
+sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev \
 
    pkg-config libgl1-mesa-dev libgles2-mesa-dev \
    
