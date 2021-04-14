@@ -6,6 +6,10 @@ Codes to use Cellix Exigo pumps using a Raspberry Pi or via Anaconda on a Window
 conda install kivy -c conda-forge
 pip install serial
 ```
+Use the ExiGo-pump_v4.py for simple liquid dosing and withdrawal.
+
+_To look at what does the 'ExiGo-pump_v4_COM5_test_PUMPCODE_glass_syringe.py' does
+
 
 
 # Installing on Raspberry pi
