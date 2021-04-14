@@ -1,5 +1,11 @@
-# Cellix-Pump-code-glass-syringe
-This script allows the Cellix pump to be run by your computer without the Ipad that comes with it. The script includes some strings with serial code for the pump, change them only if you are sure of the changes (check the manual for the serial communications of the [pump](https://www.wearecellix.com/exigopump)). This script is set to run with a glass syringe.
+# Introduction
+Codes to use Cellix Exigo pumps using a Raspberry Pi or via Anaconda on a Windows PC
+
+# Installing on Windows using Anaconda
+```Python
+conda install kivy -c conda-forge
+pip install serial
+```
 
 
 # Installing on Raspberry pi
@@ -21,11 +27,7 @@ sudo pip install kivy-garden
 ```
 
 
-# Installing on Windows using Anaconda
-```Python
-conda install kivy -c conda-forge
-pip install serial
-```
+
 
 # Fixing double click issues
 There might be a problem with double key press in the API. For that, go to the explorer,and show hidden folders.   Then go to:  pi,  .config.ini and delete line 43,  starting with %(name)s
