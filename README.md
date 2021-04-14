@@ -8,7 +8,7 @@ pip install serial
 ```
 Use the ExiGo-pump_v4.py for simple liquid dosing and withdrawal.
 
-_To look at what does the 'ExiGo-pump_v4_COM5_test_PUMPCODE_glass_syringe.py' does
+_To look at what does the 'ExiGo-pump_v4_COM5_test_PUMPCODE_glass_syringe.py' does_
 
 
 
