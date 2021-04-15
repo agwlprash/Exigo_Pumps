@@ -1,0 +1,6 @@
+Press Ctrl+Alt+t (Opens up the terminal window)
+Copy and paste the code in 'Intructions_code.txt'
+Pump operating screen should open up
+Wait for blinking lights on the pump to turn orange and then Click on 'Initialise pump'. The pump should activate and lights to turn green
+The status on the bottom should change to 'Pump Connected' (the 'Pump not initialised' still remains)
+Enter a value of flow rate of say 10 ul/sec and time of 10 sec, it should pump
