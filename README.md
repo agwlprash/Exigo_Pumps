@@ -7,7 +7,7 @@ conda install kivy -c conda-forge
 pip install serial
 ```
 Use the ExiGo-pump_v4.py for simple liquid dosing and withdrawal.
-Please install the 'USB drivers' before running the code.
+Please install the [USB drivers](USB drivers) before running the code.
 
 _To look at what does the 'ExiGo-pump_v4_COM5_test_PUMPCODE_glass_syringe.py' does_
 
@@ -20,7 +20,7 @@ The following code also installs Python 3.7 which is essential.
 
 All these commands are present in the file name (Python_update)[Python_update.txt]
 
-Save the following files: [ExiGo-pump_v4](ExiGo-pump_v4.py) and [Instructions_code](Instructions_code.txt), in pi->home->My Documents. If you are unfamiliar with Raspberry Pi then please follow the instructions in the file [Operating_instructions](Operating_instructions.txt)
+Save the following files: [ExiGo-pump_v4](ExiGo-pump_v4.py) and [Instructions_code](Instructions_code.txt), in _pi->home->My Documents_. If you are unfamiliar with Raspberry Pi then please follow the instructions in the file [Operating_instructions](Operating_instructions.txt)
 
 ```Python
 sudo apt-get update
