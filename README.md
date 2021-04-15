@@ -18,6 +18,10 @@ _To look at what does the 'ExiGo-pump_v4_COM5_test_PUMPCODE_glass_syringe.py' do
 The depencies can be installed using the following [link](https://kivy.org/doc/stable/installation/installation-rpi.html)
 The following code also installs Python 3.7 which is essential.
 
+All these commands are present in the file name (Python_update)[Python_update.txt]
+
+Save the following files: [ExiGo-pump_v4](ExiGo-pump_v4.py) and [Instructions_code](Instructions_code.txt), in pi->home->My Documents. If you are unfamiliar with Raspberry Pi then please follow the instructions in the file [Operating_instructions](Operating_instructions.txt)
+
 ```Python
 sudo apt-get update
 sudo apt-get upgrade
@@ -54,10 +58,7 @@ python -m pip install --upgrade --user pip setuptools
 python -m pip install --upgrade --user Cython==0.29.10 pillow
 python -m pip install --user kivy
 ```
-All these commands are present in the file name **Python_update.txt**
-Save the following files: Exigo, [Instructions_code](Instructions_code.txt), in pi->home->My Documents.
 
-If you are unfamiliar with Raspberry Pi then please follow the instructions in the file **Operating_instructions.txt**
 
 ## Fixing double click issues
 There might be a problem with double key press in the API. For that, go to the explorer,and show hidden folders.   Then go to:  pi,  .config.ini and delete line 43,  starting with %(name)s
