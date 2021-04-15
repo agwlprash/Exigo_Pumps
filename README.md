@@ -1,6 +1,8 @@
 # Introduction
 Codes to use Cellix Exigo pumps using a Raspberry Pi or via Anaconda on a Windows PC
 
+_To look at what does the 'ExiGo-pump_v4_COM5_test_PUMPCODE_glass_syringe.py' does_
+
 # Installing on Windows using Anaconda
 ```Python
 conda install kivy -c conda-forge
@@ -9,18 +11,10 @@ pip install serial
 Use the ExiGo-pump_v4.py for simple liquid dosing and withdrawal.
 Please install the [USB drivers](USB_Drivers.zip) before running the code.
 
-_To look at what does the 'ExiGo-pump_v4_COM5_test_PUMPCODE_glass_syringe.py' does_
-
-
-
 # Installing on Raspberry pi
 
 The depencies can be installed using the following [link](https://kivy.org/doc/stable/installation/installation-rpi.html)
 The following code also installs Python 3.7 which is essential.
-
-All these commands are present in the file name [Python_update](Python_update.txt)
-
-Save the following files: [ExiGo-pump_v4](ExiGo-pump_v4.py) and [Instructions_code](Instructions_code.txt), in _pi->home->My Documents_. If you are unfamiliar with Raspberry Pi then please follow the instructions in the file [Operating_instructions](Operating_instructions.txt)
 
 ```Python
 sudo apt-get update
@@ -58,7 +52,11 @@ python -m pip install --upgrade --user pip setuptools
 python -m pip install --upgrade --user Cython==0.29.10 pillow
 python -m pip install --user kivy
 ```
+All these commands are present in the file name [Python_update](Python_update.txt)
 
+## Running ExiGo pumps via Raspberry Pi
+
+Save the following files: [ExiGo-pump_v4](ExiGo-pump_v4.py) and [Instructions_code](Instructions_code.txt), in _pi->home->My Documents_. If you are unfamiliar with Raspberry Pi then please follow the instructions in the file [Operating_instructions](Operating_instructions.txt)
 
 ## Fixing double click issues
 There might be a problem with double key press in the API. For that, go to the explorer,and show hidden folders.   Then go to:  pi,  .config.ini and delete line 43,  starting with %(name)s
