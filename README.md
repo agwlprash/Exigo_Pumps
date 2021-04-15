@@ -54,6 +54,10 @@ python -m pip install --upgrade --user pip setuptools
 python -m pip install --upgrade --user Cython==0.29.10 pillow
 python -m pip install --user kivy
 ```
+All these commands are present in the file name **Python_update.txt**
+Save the following files: Exigo, [Instructions_code](Instructions_code.txt), in pi->home->My Documents.
+
+If you are unfamiliar with Raspberry Pi then please follow the instructions in the file **Operating_instructions.txt**
 
 ## Fixing double click issues
 There might be a problem with double key press in the API. For that, go to the explorer,and show hidden folders.   Then go to:  pi,  .config.ini and delete line 43,  starting with %(name)s
