@@ -3,6 +3,8 @@ Codes to use Cellix Exigo pumps using a Raspberry Pi or via Anaconda on a Window
 
 _To look at what does the 'ExiGo-pump_v4_COM5_test_PUMPCODE_glass_syringe.py' does_
 
+**To verify source port for PC and Pi use**
+
 # Windows using Anaconda
 
 Please install the [USB drivers](USB_Drivers.zip).
