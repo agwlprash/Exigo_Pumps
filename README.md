@@ -70,6 +70,5 @@ There might be a problem with double key press in the API. For that, go to the e
 
 
 ## Challenge observed when using pumps with anaconda
-the readme doesn't include the line explaining that "ser" variable definition is commented out
-i found that line, put in the com port and everyone is happy
+the readme doesn't include the line explaining that "ser" variable definition is commented out. i found that line, put in the com port and everyone is happy
  
