@@ -67,3 +67,9 @@ Save the following files: [ExiGo-pump_v4](ExiGo-pump_v4.py) and [Instructions_co
 
 ## Fixing double click issues
 There might be a problem with double key press in the API. For that, go to the explorer,and show hidden folders.   Then go to:  pi,  .config.ini and delete line 43,  starting with %(name)s
+
+
+## Challenge observed when using pumps with anaconda
+the readme doesn't include the line explaining that "ser" variable definition is commented out
+i found that line, put in the com port and everyone is happy
+ 
